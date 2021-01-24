@@ -1,0 +1,562 @@
+/*
+=============================================
+|   |   |   Global CSS
+=============================================
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/*
+=============================================
+|   |   |   Header
+=============================================
+*/
+
+.menu{
+    width: 100%;
+    position: relative;
+    z-index: 50;
+    background: #fff;
+}
+
+.header-section{
+    width: 100%;
+    background: url('../images/hero.png') center top no-repeat;
+    background-size: cover;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 20px;
+    -webkit-transition: 1s linear;
+    transition: 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:active{
+    background: url('../images/m-hover.png') bottom center no-repeat;
+    color: #511de5;
+}
+
+.navbar-nav .active>.nav-link{
+    background: url('../images/m-hover.png') bottom center no-repeat;
+    color: #511de5;
+}
+
+
+.btn-try{
+    padding: 8px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;    
+    border: 1px solid #511de5;
+    background: -webkit-gradient(linear,left top, right top,color-stop(10%, #511de5),to(#1d70f6));background: linear-gradient(to right,#511de5 10%,#1d70f6);
+    border-radius: 30px;
+    margin-left: 15px;
+    -webkit-transition: 1s linear;transition: 1s linear;
+}
+
+.btn-try:hover{
+    border: 1px solid #511de5;
+    background: transparent;
+    color: #511de5;
+}
+
+.navbar-toggler{
+    
+}
+
+.navbar-toggler-icon{
+    
+}
+/*==================Home========================*/
+
+.banner{
+    padding: 85px 0px 100px;
+}
+
+.home-decs{
+    width: 100%;
+    padding: 85px 0px;
+}
+
+.home-decs h1{
+    font-size: 84px;
+    line-height: 88px;
+    font-weight: 900;
+}
+
+.home-decs h1 span{
+    color: #511de5;
+    margin-bottom: 40px;
+}
+
+.btn-home{
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 30px;
+    margin-top: 40px;
+    -webkit-transition: 1s linear;transition: 1s linear;
+}
+.btn-home:hover{
+    background: transparent;
+    border: 1px solid #511de5;
+    color: #511de5;
+}
+.fa-long-arrow-right:before{
+    margin-left: 10px;
+}
+
+
+/*
+=============================================
+|   |   |   Hilight Seaction
+=============================================
+*/
+.highlight{
+    background: url('../images/highlight-bg.png');
+    padding: 40px 0px;
+    position: relative;
+}
+.highlight-inner h3{
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.high-img{
+    position: absolute;
+    bottom: 0px;
+    left: -70px;
+}
+/*
+=============================================
+|   |   |   Features Seaction
+=============================================
+*/
+.features{
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.feature-inner{
+    padding: 80px 70px 215px;
+    background: url('../images/f-img.png') center bottom no-repeat;
+    background-size: cover;
+}
+.feature-inner h2{
+    font-size: 58px;
+    line-height: 64px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.feature-inner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.feature-inner h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 50px;
+}
+.feature-inner h3 span{
+    font-size: 130px;
+    font-weight: 900;
+   background: -webkit-linear-gradient(#511de5, #0891fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+.client-inner{
+    padding: 30px 0px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.client{
+    width: 80%;
+}
+/*
+=============================================
+|   |   |   Quote Section
+=============================================
+*/
+.quote{
+    width: 100%;
+    padding: 120px 0px 100px;
+    background: url('../images/quota-bg.png') top center no-repeat;
+    background-size: cover;
+}
+
+.quote-left{
+    width: 100%;
+    padding: 200px 100px;
+    background: url('../images/Quote.png') center no-repeat;
+    background-size: contain;
+}
+
+.quote-left p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 20px;
+}
+.quote-left h6{
+    font-weight: 900;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.quote-desc{
+    width: 100%;
+    padding: 130px 0px 0px 20px;
+}
+
+.quote-desc h1{
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 900;
+    
+}
+/*
+=============================================
+|   |   |   Efficiency
+=============================================
+*/
+.efficiency{
+    padding: 100px 0px 110px;
+}
+
+.effi-inner{
+    padding-top: 50px;
+}
+
+.effi-inner h1{
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.effi-inner p{
+   margin-bottom: 30px; 
+}
+
+.effi-inner h6 img{
+    margin-right: 15px;
+}
+
+
+
+.btn-effi{
+    padding: 8px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #511de5;
+    background: -webkit-gradient(linear,left top, right top,color-stop(10%, #511de5),to(#1d70f6));background: linear-gradient(to right,#511de5 10%,#1d70f6);
+    border-radius: 30px;
+    -webkit-transition: 1s linear;transition: 1s linear;
+    margin-top: 30px;
+}
+
+.btn-effi:hover{
+    border: 1px solid #511de5;
+    background: transparent;
+    color: #511de5;
+}
+/*
+=============================================
+|   |   |   Design
+=============================================
+*/
+.design{
+    padding: 90px 0px;
+    background: #fcfcfc;
+}
+
+.design-title{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.design-title h1{
+    font-size: 58px;
+    line-height: 68px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.design-title p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 60px;
+}
+
+.design-inner{
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.design-inner img{
+    mix-blend-mode: darken;
+    margin-bottom: 30px;
+}
+
+.design-inner h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.design-inner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.design .line{
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+}
+/*
+=============================================
+|   |   |   Inspirational Quote Section
+=============================================
+*/
+.insp-quote{
+    padding: 90px 0px;
+}
+
+.insp-title{
+    padding: 40px 0px 50px;
+    text-align: center;
+}
+
+.insp-title h1{
+    font-size: 86px;
+    line-height: 96px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+
+.testimonial-inner{
+    padding: 60px 20px 20px;
+    text-align: center;
+    background: url(../images/Coma.png) center center no-repeat;
+    background-size: cover;
+    box-shadow: 1px 4px 10px #ccc;
+    opacity: 0.5;
+    -webkit-transition: 1s;transition: 1s;
+}
+.testimonial-inner:hover{
+    opacity: 1;
+}
+.testimonial{
+    padding: 40px 0px 60px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.testimonial h5{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    -webkit-transition: 1s linear;transition: 1s linear;
+}
+
+.testimonial-inner:hover .testimonial h5{
+    background: -webkit-linear-gradient(#511de5, #0891fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.testimonial-auth{
+    padding: 30px 0px 0px;
+}
+.testimonial-auth img{
+    margin-bottom: 20px;
+}
+.testimonial-auth h6{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.testimonial-auth p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #676767;
+}
+
+/*
+=============================================
+|   |   |   FAQ + Footer Section
+=============================================
+*/
+
+.faq-footer{
+    padding: 100px 0px 70px;
+    background:url('../images/fbg.png') bottom center no-repeat;
+    background-size: cover;
+}
+
+.faq{
+    padding: 100px 40px;
+    background: #fff;
+    box-shadow: 1px 2px 4px inset #f6f6f6;
+}
+
+.faq-title{
+    padding: 80px 10px;
+    text-align: center;
+}
+
+
+.faq-title h1{
+    font-size: 86px;
+    line-height: 96px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+
+.card{
+    border: 0; 
+}
+
+.card-header{
+    background: #fff;
+    border: 0;
+}
+
+.card-body{
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    font-size: 400;
+    border: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.faq-footer .btn{
+    text-decoration: none;
+    padding: .375rem 0rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.faq-footer .btn:focus,
+.faq-footer .btn:hover{
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.btn-link{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-link:active,
+.btn-link:hover,
+.btn-link:focus{
+    color: #511de5;
+}
+
+/*===================Bottom Nav======================*/
+
+.gg{
+    padding: 50px 15px;
+    margin-top: 60px;
+}
+
+.botm-nav{
+    display: block;
+}
+.botm-nav li{
+    display: inline-block;
+    list-style:none;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.botm-nav li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.copy p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+}
+/*
+=============================================
+|   |   |   
+=============================================
+*/
+
+
+
+/*
+=============================================
+|   |   |   
+=============================================
+*/
+
+
+/*
+====================================================
+font-family: 'Libre Franklin', sans-serif;
+
+Heading color: #000;
+
+Text Color: #000;
+
+Hilight Heading color:#511de5;
+
+
+Some btn color:#f2f2f2;
+
+
+Some Text color: #0000ff;
+
+Some Text In- color: #511de5 to #098ff;
+
+SButton In- color: #511de5 to #0a8ffc;
+
+====================================================
+*/
